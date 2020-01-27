@@ -1,0 +1,360 @@
+;question;theme
+0;Quels sont les jours d’arrivée ?;Préparer mon séjour
+1;Comment évaluer le confort de mon domaine et de mon cottage ?;Préparer mon séjour
+2;Quels sont les services et activités compris dans le prix de mon cottage ?;Préparer mon séjour
+3;Comment réserver mes activités ?;Préparer mon séjour
+4;Où trouver le plan du domaine ?;Préparer mon séjour
+5;Puis-je venir avec mon animal domestique ?;Préparer mon séjour
+6;Peut-on accéder au domaine à la journée (sans réserver de cottage) ?;Préparer mon séjour
+7;Comment réserver un logement adapté aux personnes à mobilité réduite?;Préparer mon séjour
+8;Comment recevoir la brochure ?;Préparer mon séjour
+9;Est-il possible d'acheter des billets pour les parcs Disneyland® Paris ?;Préparer mon séjour
+10;Un visa ou un passeport est-il impératif pour voyager ?;Préparer mon séjour
+11;Comment utiliser l’offre Early Booking avec les Activités Cadeaux ?;Préparer mon séjour
+12;Y a-t-il un service bagagerie pour déposer mes valises ?;Préparer mon séjour
+13;Y a-t-il des frais de dossier ?;Réserver et payer
+14;Dois-je payer la totalité de mon séjour au moment de ma réservation ?;Réserver et payer
+15;Ai-je un droit de rétractation ?;Réserver et payer
+16;Comment payer si je réserve mon séjour sur le site internet ?;Réserver et payer
+17;Comment payer si je réserve mon séjour via le centre d'appel ?;Réserver et payer
+18;Puis-je adresser mon règlement par courrier ?;Réserver et payer
+19;Comment puis-je payer si je ne réside pas en France ?;Réserver et payer
+20;Quelles sont les cartes bancaires acceptées ?;Réserver et payer
+21;Comment régler ma réservation avec des ANCV?;Réserver et payer
+22;Peut-il y avoir des frais de paiement ?;Réserver et payer
+23;Comment payer avec des bons / chèques cadeaux ?;Réserver et payer
+24;Que comprend le prix de la réservation de l'hébergement ?;Réserver et payer
+25;Puis-je faire un partenariat commercial avec Center Parcs ?;Réserver et payer
+26;Comment puis-je réserver pour un groupe ?;Réserver et payer
+27;Puis- je réserver mes activités à la réception et payer par ANCV, chèques cadeaux, etc…?;Réserver et payer
+28;Peut on régler avec des chèques cadeaux, ANCV, Tickets restaurants dans les restaurants ?;Réserver et payer
+29;Comment m'assurer que ma réservation est bien enregistrée ?;Gérer ma réservation
+30;Je souhaite modifier le lieu ou les dates de mon séjour;Gérer ma réservation
+31;Je souhaite choisir l'emplacement de mon cottage;Gérer ma réservation
+32;J'ai une question relative au paiement de ma réservation;Gérer ma réservation
+33;Peut-on être plus nombreux que prévu ?;Gérer ma réservation
+34;Comment recevoir une facture acquittée ?;Gérer ma réservation
+35;Comment annuler ma réservation ?;Gérer ma réservation
+36;De quels documents ai-je besoin lors du check-in ?;Mon séjour
+37;À quelle heure se fait le check-in ?;Mon séjour
+38;À quelle heure se fait le check-out ?;Mon séjour
+39;Puis-je accéder au domaine et à l'Aqua Mundo les jours d'arrivée et de départ ?;Mon séjour
+40;Stationnement;Mon séjour
+41;Le Wi-Fi est-il disponible ?;Mon séjour
+42;Comment faire pour réserver mes prestations sur place ?;Mon séjour
+43;Quelles sont les règles à respecter ?;Mon séjour
+44;Dans le parc, peut-on payer en chèques vacances ?;Mon séjour
+45;Dans le parc, peut-on payer en tickets restaurants ?;Mon séjour
+46;Quels sont les équipements de cuisine disponibles ? (Y a-t-il une machine à café ? Un four ? des éponges ?);Mon séjour
+47;Quels sont les équipements disponibles dans le cottage ? (Machine à laver, fer à repasser, kit bébé inclus ou à réserver, draps ..);Mon séjour
+48;Peut-on réserver au restaurant en avance ?;Mon séjour
+49;Y a-t-il une laverie sur les domaines ?;Mon séjour
+50;Que couvrent nos assurances ?;Assurances
+51;Comment annuler ma réservation ?;Assurances
+52;Je n'ai pas souscrit d'assurance;Assurances
+53;Comment percevoir mes indemnités auprès d’Europ Assistance?;Assurances
+54;Quand pouvons-nous arriver ?;Préparer mon séjour
+55;Quand peut-on arriver ?;Préparer mon séjour
+56;A quelle heure peut-on arrvier ?;Préparer mon séjour
+57;Est-il possible d’arriver à toute heure ?;Préparer mon séjour
+58;quel jour peut-on arriver ?;Préparer mon séjour
+59;Est-il possible d’arriver un samedi ?;Préparer mon séjour
+60;Peut-on arriver n’importe quel jour ?;Préparer mon séjour
+61;Peut-on arriver un autre jour que le jour d’arrivé prévu ?;Préparer mon séjour
+62;Pouvons-nous changer le jour d’arriver ?;Préparer mon séjour
+63;Comment puis-je noter ma cabane ?;Préparer mon séjour
+64;Comment attribuer une note à mon cottage ?;Préparer mon séjour
+65;Comment noter le confort du domaine ?;Préparer mon séjour
+66;Comment noter le confort du cottage ?;Préparer mon séjour
+67;Comment puis-je attribuer au confort reçu ?;Préparer mon séjour
+68;Comment faire pour donner une note sur le confort du domaine ?;Préparer mon séjour
+69;Comment faire pour donner une note sur le confort du cottage ?;Préparer mon séjour
+70;Comment peut-on vous noter ?;Préparer mon séjour
+71;Comment on fait pour vous atribuer une note ?;Préparer mon séjour
+72;Quels sont les services et activités inclus dans le prix de mon cottage ?;Préparer mon séjour
+73;Quels sont les activités compris dans le prix de mon cottage ?;Préparer mon séjour
+74;Quels sont les services compris dans le prix de mon cottage ?;Préparer mon séjour
+75;Qu’est-ce qui est compris dans le prix de mon cottage ?;Préparer mon séjour
+76;Qu’est-ce qui est inclus dans le prix de mon cottage ?;Préparer mon séjour
+77;Pouvez-vous m’indiquer les services et les activées inclus dans le prix de mon cottage ?;Préparer mon séjour
+78;Pouvez-vous m’indiquer les services et les activées inclus dans ce que j’ai payé pour mon cottage ?;Préparer mon séjour
+79;Quels sont les services et activités inclus dans ce que j’ai payé pour mon cottage ?;Préparer mon séjour
+80;A quoi ai-je le droit inclus dans le prix de mon cottage ?;Préparer mon séjour
+81;Comment réserver les activités ?;Préparer mon séjour
+82;Comment puis-je réserver mes activités ?;Préparer mon séjour
+83;Comment faire pour réserver des activités ?;Préparer mon séjour
+84;Comment puis-je réserver mes activités ?;Préparer mon séjour
+85;Comment fonctionne la réservation de mes activités ?;Préparer mon séjour
+86;Comment marche la réservation de mes activités ?;Préparer mon séjour
+87;Comment réserver mes activités sur votre site?;Préparer mon séjour
+88;Comment réserver certaines de mes activités ?;Préparer mon séjour
+89;Où réserver mes activités ?;Préparer mon séjour
+90;Où puis-je réserver mes activités ?;Préparer mon séjour
+91;Comment trouver le plan du domaine ?;Préparer mon séjour
+92;Comment faire pour découvrir le plan du domaine ?;Préparer mon séjour
+93;Où découvrir le plan du domaine ?;Préparer mon séjour
+94;Où pouvons-nous trouver le plan du domaine ?;Préparer mon séjour
+95;Comment trouver le plan du domaine ?;Préparer mon séjour
+96;Le plan du domaine se trouve où ?;Préparer mon séjour
+97;Où est-ce que le plan du domaine se trouve ?;Préparer mon séjour
+98;Le plan du domaine est où ?;Préparer mon séjour
+99;Où puis-je trouver le plan du domaine ?;Préparer mon séjour
+100;Comment puis-je trouver le plan du domaine ?;Préparer mon séjour
+101;Les animaux domestiques sont-il acceptés ?;Préparer mon séjour
+102;Pouvons-nous venir avec notre animal domestique ?;Préparer mon séjour
+103;Puis-je amener mon animal de compagnie ?;Préparer mon séjour
+104;Les animaux de compagnis peuvent-ils entrer ?;Préparer mon séjour
+105;Les animaux domestiques peuvent-ils venir ?;Préparer mon séjour
+106;Puis-je amener mon animal domestique ?;Préparer mon séjour
+107;Les animaux sont-ils autorisés ?;Préparer mon séjour
+108;Les animaux peuvent-ils venir ?;Préparer mon séjour
+109;Puis-je venir avec mon animal ?;Préparer mon séjour
+110;Pouvons-nous apporter notre animal domestique ?;Préparer mon séjour
+111;Pouvons-nous accéder au domaine à la journée (sans réserver de cottage) ?;Préparer mon séjour
+112;Peut-on accéder au domaine à la journée sans réservation de cottage ?;Préparer mon séjour
+113;Est-il possible d’accéder au domaine à la journée (sans réserver de cottage) ?;Préparer mon séjour
+114;Est-il possible accéder au domaine à la journée sans réservation de cottage ?;Préparer mon séjour
+115;Peut-on accéder au domaine durant la journée (sans réserver de cottage) ?;Préparer mon séjour
+116;Peut-on accéder au domaine à la journée ?;Préparer mon séjour
+117;C’est possible d’aller au domaine à la journée (sans réserver de cottage) ?;Préparer mon séjour
+118;Peut-on venir au domaine à la journée (sans réserver de cottage) ?;Préparer mon séjour
+119;Peut-on venir dans les domaine à la journéesans réservation(sans réserver de cottage) ?;Préparer mon séjour
+120;Est-il possible de réserver un logement adapté aux personnes à mobilité réduite?;Préparer mon séjour
+121;Comment réserver un logement adapté aux personnes handicapées ?;Préparer mon séjour
+122;Comment faire une  réservation pour un logement adapté aux personnes à mobilité réduite?;Préparer mon séjour
+123;Comment réserver un logement pour des personnes à mobilité réduite?;Préparer mon séjour
+124;Comment réserver un logement adapté aux personnes avec un handicap ?;Préparer mon séjour
+125;Comment faire pour réserver un logement adapté aux personnes qui ont des difficultés à se déplacer ?;Préparer mon séjour
+126;Quoi faire pour réserver un logement adapté aux personnes à mobilité réduite?;Préparer mon séjour
+127;Quoi faire pour réserver un logement adapté aux personnes handicapées?;Préparer mon séjour
+128;Comment réserver un logement fait pour des personnes à mobilité réduite?;Préparer mon séjour
+129;Comment voir la brochure ?;Préparer mon séjour
+130;Puis-je recevoir la brochure ?;Préparer mon séjour
+131;Peut-on avoir la brochure ?;Préparer mon séjour
+132;Où trouver votre brochure ?;Préparer mon séjour
+133;Comment faire pour recevoir la brochure ?;Préparer mon séjour
+134;Est-il possible de recevoir la brochure ?;Préparer mon séjour
+135;Puis-je avoir la brochure ?;Préparer mon séjour
+136;Comment avoir la brochure ?;Préparer mon séjour
+137;Peut-on recevoir la brochure ?;Préparer mon séjour
+138;Peut-on acheter des billets pour les parcs Disneyland Paris ?;Préparer mon séjour
+139;Peut-on acheter des billets pour les parcs Disneyland ?;Préparer mon séjour
+140;Pouvons-nous acheter des billets pour les parcs Disneyland Paris ?;Préparer mon séjour
+141;Est-ce possible d’acheter des billets pour les parcs Disneyland Paris ?;Préparer mon séjour
+142;Est-il possible d’acheter des billets pour les parcs Disneyland ?;Préparer mon séjour
+143;Peut-on acheter des places pour les parcs Disneyland Paris ?;Préparer mon séjour
+144;Est-ce possible d’acheter des places pour les parcs Disneyland Paris ?;Préparer mon séjour
+145;Est-ce possible d’acheter des places pour les parcs Disneyland?;Préparer mon séjour
+146;Pouvons-nous acheter des places pour les parcs Disneyland Paris ?;Préparer mon séjour
+147;Un visa ou un passeport est-il nécessaire pour voyager ?;Préparer mon séjour
+148;Est-il nécessaire d’avoir un visa ou un passeport pour voyager ?;Préparer mon séjour
+149;Est-il impératif d’avoir un visa ou un passeport pour voyager ?;Préparer mon séjour
+150;Avons-nous réellement besoin d’un visa ou un passeport pour voyager ?;Préparer mon séjour
+151;Ai-je besoind d’avoir un visa ou un passeport pour voyager ?;Préparer mon séjour
+152;Est-ce obligatoire d’avoir un visa ou un passeport pour voyager ?;Préparer mon séjour
+153;C’est obligé d’avoir un visa ou un passeport pour voyager ?;Préparer mon séjour
+154;Est-il obligatoire d’avoir un visa ou un passeport pour voyager ?;Préparer mon séjour
+155;Un visa ou un passeport est-il obligatoire pour voyager ?;Préparer mon séjour
+156;De quelle manière utiliser l’offre Early Booking avec les Activités Cadeaux ?;Préparer mon séjour
+157;Comment peut-on utiliser l’offre Early Booking avec les Activités Cadeaux ?;Préparer mon séjour
+158;Comment pouvons-nous utiliser l’offre Early Booking avec les Activités Cadeaux ?;Préparer mon séjour
+159;Utiliser l’offre Early Booking avec les Activités Cadeaux, on fait comment?;Préparer mon séjour
+160;On fait comment pour utiliser l’offre Early Booking avec les Activités Cadeaux ?;Préparer mon séjour
+161;Comment faire pour utiliser l’offre Early Booking avec les Activités Cadeaux ?;Préparer mon séjour
+162;Comment bénéficier de l’offre Early Booking avec les Activités Cadeaux ?;Préparer mon séjour
+163;De quelle manière bénéficier de l’offre Early Booking avec les Activités Cadeaux ?;Préparer mon séjour
+164;On fait comment pour avoir l’offre Early Booking avec les Activités Cadeaux ?;Préparer mon séjour
+165;Y a-t-il une bagagerie pour déposer mes valises ?;Préparer mon séjour
+166;Est-ce qu’il y a un service bagagerie pour déposer mes valises ?;Préparer mon séjour
+167;Y a-t-il une bagagerie pour déposer mes affaires ?;Préparer mon séjour
+168;Pouvons-nous déposer nos valises ?;Préparer mon séjour
+169;Peut-on déposer nos affaires dans un endroit spécial ?;Préparer mon séjour
+170;Avez-vous un service bagagerie ?;Préparer mon séjour
+171;Où puis-je déposer mes valises ?;Préparer mon séjour
+172;Est-il possible de déposer ses valises dans un service spécial ?;Préparer mon séjour
+173;Comment faire si j’ai des valises ?;Préparer mon séjour
+174;Nos assurances couvrent quoi ?;Assurances
+175;Qu’est-ce qu’il y a de couvert par nos assurances ?;Assurances
+176;A quoi servent nos assurances ?;Assurances
+177;Pourquoi prendre notre assurance ?;Assurances
+178;Que permettent nos assurances ?;Assurances
+179;Pourquoi nos assurances sont-elles utiles ?;Assurances
+180;Pourquoi choisir nos assurances ?;Assurances
+181;Etes-vous couvert par nos assurances ?;Assurances
+182;Comment faire pour annuler ma réservation ?;Assurances
+183;Puis-je annuler ma réservation ?;Assurances
+184;Comment tout annuler ?;Assurances
+185;Est-il possible d’annuler ma réservation ?;Assurances
+186;Je veux annuler ma réservation, comment je fais ?;Assurances
+187;Comment faire pour vous contacter pour annuler ma réservation ?;Assurances
+188;Comment supprimer ma réservation ?;Assurances
+189;Puis-je supprimer ma réservation ?;Assurances
+190;Pouvons-nous supprimer notre réservation ?;Assurances
+191;Je n'ai pas pris d'assurance;Assurances
+192;Pourquoi prendre votre assurance ?;Assurances
+193;Je n'ai pas d'assurance;Assurances
+194;J'ai pas souscrit d'assurance;Assurances
+195;Je n'ai pas pris d'assurance car je n’en veux pas;Assurances
+196;J’ai pas souscrit d'assurance;Assurances
+197;Ca fait quoi si je n’ai pas souscrit à l’assurance ?;Assurances
+198;Quelles sont les conséquences de ne pas souscrire à l’assurance ?;Assurances
+199;Comment percevoir mes indemnités ?;Assurances
+200;De quelle manière percevoir mes indemnités auprès d’Europ Assistance ?;Assurances
+201;Comment puis-je recevoir mes indemnités auprès d’Europ Assistance ?;Assurances
+202;Comment avoir les indemnités qu’Europ Assistance me doit ?;Assurances
+203;Comment faire pour recevoir mes indemnités auprès d’Europ Assistance ?;Assurances
+204;Europ Assistance peut-il m’envoyer mes indémnités ?;Assurances
+205;Comment puis-je percevoir mes indemnités auprès d’Europ Assistance ?;Assurances
+206;Par quelle manière je peux percevoir mes indemnités auprès d’Europ Assistance ?;Assurances
+207;Europ Assistance peut-il me rendre mes indémnités ?;Assurances
+208;Il y a des frais de dossier ?;Réserver et payer
+209;Combien coûtent les frais de dossier ?;Réserver et payer
+210;Quel est le montant des frais de dossier ?;Réserver et payer
+211;A combien sont les frais de dossier ?;Réserver et payer
+212;Y a-t-il des frais de dossier ?;Réserver et payer
+213;A quelle fréquence on paye les frais de dossier ?;Réserver et payer
+214;Quand paye-t-on les frais de dossier ?;Réserver et payer
+215;Faut-il payer la totalité de mon séjour au moment de ma réservation ?;Réserver et payer
+216;Est-on obligé de payer la totalité du séjour au moment de ma réservation ?;Réserver et payer
+217;Peut-on payer la totalité du séjour au moment de la réservation ?;Réserver et payer
+218;Sui-je obliger de payer la totalité de mon séjour au moment de ma réservation ?;Réserver et payer
+219;Puis-je me rétractater ?;Réserver et payer
+220;Y a-t-il un droit de rétractation ?;Réserver et payer
+221;Peut-on se rétracter ?;Réserver et payer
+222;Est-ce possible de se rétracter ?;Réserver et payer
+223;De quelle manière payer si je réserve mon séjour sur le site internet ?;Réserver et payer
+224;Où faut-il payer si la réservation se fait sur internet ?;Réserver et payer
+225;Où payer si mon séjour est réservé sur le site internet ?;Réserver et payer
+226;Comment fait pour payer si je réserve mon séjour sur le site internet ?;Réserver et payer
+227;De quelle manière paye si je réserve mon séjour via le centre d'appel ?;Réserver et payer
+228;Où faut-il payer si la réservation se fait sur le centre d’appel ?;Réserver et payer
+229;Comment faire pour payer si je réserve mon séjour via le centre d'appel ?;Réserver et payer
+230;Où payer si la réservation se fait via le centre d'appel ?;Réserver et payer
+231;Puis-je payer par courrier ?;Réserver et payer
+232;Est-il possible d’adresser mon règlement par courrier ?;Réserver et payer
+233;Puis-je régler par courrier ?;Réserver et payer
+234;Est ce qu’il y a possibilité d’adresser mon règlement par courrier ?;Réserver et payer
+235;Comment faire pour payer si je ne réside pas en France ?;Réserver et payer
+236;Comment payer si je n’habite pas en France ?;Réserver et payer
+237;Comment puis-je payer si je n’habite pas en France ?;Réserver et payer
+238;Comment payer sans résider en France ?;Réserver et payer
+239;Quelles cartes bancaires acceptéz-vous ?;Réserver et payer
+240;Quelles sont les cartes bancaires avec lesquelles on peut payer ?;Réserver et payer
+241;Quelles cartes bancaires sont acceptées ?;Réserver et payer
+242;Vous acceptez quelles cartes bancaires ?;Réserver et payer
+243;De quelle manière régler ma réservation avec des ANCV?;Réserver et payer
+244;Comment payer ma réservation avec des ANCV?;Réserver et payer
+245;Est-il possible de régler ma réservation avec des ANCV?;Réserver et payer
+246;Puis-je payer ma réservation avec des ANCV?;Réserver et payer
+247;Y a-t-il des frais de paiement ?;Réserver et payer
+248;Il y a des frais de paiement ?;Réserver et payer
+249;Des frais de paiement sont-ils à prévoir ?;Réserver et payer
+250;Avons-nous des frais de paiement ?;Réserver et payer
+251;Peut-on payer avec des bons / chèques cadeaux ?;Réserver et payer
+252;Comment régler avec des bons / chèques cadeaux ?;Réserver et payer
+253;Est-il possible de payer avec des chèques cadeaux ?;Réserver et payer
+254;Des bons / chèques cadeaux sont-ils acceptés ?;Réserver et payer
+255;Le prix de la réservation de l'hébergement comprend quoi ?;Réserver et payer
+256;Il y a quoi dans le prix de la réservation de l'hébergement ?;Réserver et payer
+257;Qu’y a-t-il de compris dans le prix de la réservation de l'hébergement ?;Réserver et payer
+258;Qu’est compris dans le prix de la réservation de l'hébergement ?;Réserver et payer
+259;Peut-on avoir un partenariat commercial avec Center Parcs ?;Réserver et payer
+260;Est-ce possible de faire un partenariat commercial avec Center Parcs ?;Réserver et payer
+261;Y a-t-il des partenariats commerciaux avec Center Parcs ?;Réserver et payer
+262;Comment faire un partenariat commercial avec Center Parcs ?;Réserver et payer
+263;Pouvons-nous réserver pour un groupe ?;Réserver et payer
+264;Puis-je faire une réservation pour un groupe ?;Réserver et payer
+265;Est-il possible de réserver pour un groupe ?;Réserver et payer
+266;Peut-on réserver pour un groupe ?;Réserver et payer
+267;Est il possible de réserver mes activités à la réception et payer par ANCV, chèques cadeaux, etc…?;Réserver et payer
+268;Mes activités peuvent-elles être réservées à la réception et payées par ANCV, chèques cadeaux, etc…?;Réserver et payer
+269;Est-ce que je peux réserver mes activités à la réception et payer par ANCV, chèques cadeaux, etc…?;Réserver et payer
+270;Pouvons-nous réserver nos activités à la réception et régler par ANCV, chèques cadeaux, etc…?;Réserver et payer
+271;Est-il possible de régler avec des chèques cadeaux, ANCV, Tickets restaurants dans les restaurants ?;Réserver et payer
+272;Comment payer avec des chèques cadeaux, ANCV, Tickets restaurants dans les restaurants ?;Réserver et payer
+273;Est-ce possible de régler avec des chèques cadeaux, ANCV, Tickets restaurants dans les restaurants ?;Réserver et payer
+274;Acceptez-vous les règlements avec des chèques cadeaux, ANCV, Tickets restaurants dans les restaurants ?;Réserver et payer
+275;Comment savoir si ma réservation est bien enregistrée ?;Gérer ma réservation
+276;Comment être sur que ma réservation est bien enregistrée ?;Gérer ma réservation
+277;Puis-je m'assurer que ma réservation est bien enregistrée ?;Gérer ma réservation
+278;Ma réservation est-elle bien enregistrée ?;Gérer ma réservation
+279;Je veux modifier le lieu ou les dates de mon séjour;Gérer ma réservation
+280;Comment modifier le lieu ou les dates de mon séjour ?;Gérer ma réservation
+281;De quelle manière je peux modifier le lieu ou les dates de mon séjour ?;Gérer ma réservation
+282;Comment changer le lieu ou les dates de mon séjour ?;Gérer ma réservation
+283;Comment choisir l'emplacement de mon cottage ?;Gérer ma réservation
+284;Est-il possible de choisir l'emplacement de mon cottage ?;Gérer ma réservation
+285;J’aimerai sélectionner l'emplacement de mon cottage;Gérer ma réservation
+286;Comment faire pour choisir l'emplacement de mon cottage ?;Gérer ma réservation
+287;Quelles sont les modalités du paiement de ma réservation ?;Gérer ma réservation
+288;Je me questionne sur le règlement de ma réservation;Gérer ma réservation
+289;Quelles sont les modalités du règlement de ma réservation ?;Gérer ma réservation
+290;Comment gérer ma réservation ?;Gérer ma réservation
+291;Est-il possible d’être plus nombreux que prévu ?;Gérer ma réservation
+292;Pouvons-nous arriver avec plus de personnes que prévues ?;Gérer ma réservation
+293;Est-ce possible de venir plus nombreux que prévu ?;Gérer ma réservation
+294;Que se passe-t-il si nous sommes plus nombreux que prévu ?;Gérer ma réservation
+295;Comment recevoir ma facture ?;Gérer ma réservation
+296;De quelle manière puis-je receptionner une facture acquittée ?;Gérer ma réservation
+297;Comment puis-je avoir une facture acquittée ?;Gérer ma réservation
+298;Est-il possible de recevoir une facture acquittée ?;Gérer ma réservation
+299;Puis-je annuler ma réservation ?;Gérer ma réservation
+300;De quelle manière peut-on supprimer sa réservation ?;Gérer ma réservation
+301;Est-il possible d’annuler ma réservation ?;Gérer ma réservation
+302;Comment faire pour annuler ma réservation ?;Gérer ma réservation
+303;De quels documents ai-je besoin lors de mon entrée ?;Mon séjour
+304;Quels documents dois-je apporter lors du check-in ?;Mon séjour
+305;Quels sont les documents nécessaires lors du check-in ?;Mon séjour
+306;Quels sont les documents nécessaires lors de l’entrée ?;Mon séjour
+307;À quelle heure se fait l’entrée ?;Mon séjour
+308;À quelle heure dois-je arriver ?;Mon séjour
+309;Quand dois-je venir ?;Mon séjour
+310;A partir de quelle heure pouvons-nous arriver ?;Mon séjour
+311;À quelle heure se fait la sortie ?;Mon séjour
+312;À quelle heure dois-je partir ?;Mon séjour
+313;Quand dois-je partir ?;Mon séjour
+314;À partir de quelle heure se fait le check-out ?;Mon séjour
+315;Est-il possible d’accéder au domaine et à l'Aqua Mundo les jours d'arrivée et de départ ?;Mon séjour
+316;Est-ce possible d’aller au domaine et à l'Aqua Mundo les jours d'arrivée et de départ ?;Mon séjour
+317;Puis-je accéder au domaine et à l'Aqua Mundo quand j’arrive et quand je pars ?;Mon séjour
+318;Pouvons-nous nous rendre au domaine et à l'Aqua Mundo les jours d'arrivée et de départ ?;Mon séjour
+319;Où puis-je garer mon véhicule ?;Mon séjour
+320;Y a-t-il un parking pour se stationner ?;Mon séjour
+321;Comment faire pour stationner ma voiture ?;Mon séjour
+322;A quel endroit résident les véhicules ?;Mon séjour
+323;Ai-je accès au Wi-Fi ?;Mon séjour
+324;Y a-t-il le Wi-Fi ?;Mon séjour
+325;Internet est-il disponible ?;Mon séjour
+326;Puis-je me connecter au Wi-Fi ?;Mon séjour
+327;Comment puis-je réserver mes prestations sur place ?;Mon séjour
+328;Puis-je réserver mes prestations directement sur place ?;Mon séjour
+329;Est-il possible de réserver sur place ?;Mon séjour
+330;Y a-t-il possibilité de réserver mes prestations sur place ?;Mon séjour
+331;Y a-t-il des règles ?;Mon séjour
+332;Quelles sont les consignes à respecter ?;Mon séjour
+333;Devons nous respecter des règles ?;Mon séjour
+334;Quelles consignes dois-je connaître ?;Mon séjour
+335;Dans le parc, puis-je régler en chèques vacances ?;Mon séjour
+336;Dans le parc, les chèques vacances sont-ils acceptés ?;Mon séjour
+337;Dans le parc, acceptez-vous les chèques vacances ?;Mon séjour
+338;Dans le parc, est-ce possible de payer en chèques vacances ?;Mon séjour
+339;Dans le parc, puis-je régler en tickets restaurants ?;Mon séjour
+340;Dans le parc, acceptez-vous les tickets restaurants ?;Mon séjour
+341;Dans le parc, est-ce possible de régler en tickets restaurants ?;Mon séjour
+342;Dans le parc, les tickets restaurants sont-ils acceptés ?;Mon séjour
+343;Quels sont les équipements de cuisine mis à notre disposition ? (Y a-t-il des couverts, des verres, assiettes ?);Mon séjour
+344;Y a-t-il des équipements de cuisine prévus ? (Y a-t-il une machine à café ? Un four ? Des couverts ?);Mon séjour
+345;Est-ce qu’il y a des équipements de cuisine disponibles ? (Y a-t-il une machine à café ? Un micro-ond, des produits d’entretien ? des éponges ?);Mon séjour
+346;Avons-nous accès à des équipements de cuisine ? (Y a-t-il une machine à café ? Un four ? des éponges ?);Mon séjour
+347;Quels sont les équipements mis à notre disposition dans le cottage ? (Machine à laver, fer à repasser, kit bébé inclus ou à réserver, draps, couette ..);Mon séjour
+348;Y a-t-il des équipements prévus dans le cottage ? (Lave linge, lave vaisselle, fer à repasser, kit bébé inclus ou à réserver, draps ..);Mon séjour
+349;Est-ce qu’il y a des équipements disponibles dans le cottage ? (Machine à laver, fer à repasser, kit bébé inclus ou à réserver, draps ..);Mon séjour
+350;Avons-nous accès à des équipements dans le cottage ? (Machine à laver, fer à repasser, kit bébé inclus ou à réserver, draps ..);Mon séjour
+351;Est-il possible de réserver au restaurant en avance ?;Mon séjour
+352;Acceptez-vous des réservations au restaurant en avance ?;Mon séjour
+353;Peut-on réserver au restaurant un peu plus tôt dans la journée ?;Mon séjour
+354;Est-ce possible de réserver au restaurant en avance ?;Mon séjour
+355;Disposez-vous d’une laverie sur les domaines ?;Mon séjour
+356;Est-ce qu’on peut trouver une laverie sur les domaines ?;Mon séjour
+357;Est-il possible de laver nos vêtements dans une laverie sur les domaines ?;Mon séjour
+358;Pouvons-nous trouver une machine à laver sur les domaines ?;Mon séjour
