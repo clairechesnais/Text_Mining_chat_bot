@@ -117,10 +117,14 @@ dic_decode_theme = {val: key for key, val in dic_code_theme.items()}
 
 # classif theme
 vectoriser_theme = load('vectorizer_classif_theme.joblib')
-classifier_theme = load('model_classif_theme.joblib')
+#classifier_theme = load('model_classif_theme.joblib')      #A VOIR AVEC ENO
 
 # classif domaine
 classifier_domaine = load('model_classif_domaine.joblib')
+
+# import faq pour similarité
+faq = pd.read_pickle('df_classif_similarity.pkl')
+faq['tokens'] = faq['question_clean'].apply(nlp)
 
 # generation réponse origniale
 with open('model_generation_text.json', 'r') as json_file :
@@ -148,7 +152,6 @@ input_eval = tf.expand_dims(input_eval, 0)
 
 
 
-
 # -- lancement du bot
 
 print("Pour quitter, taper 'quit'.")
@@ -163,20 +166,20 @@ while quest_user != "quit":
     if domaine_quest_user == 1:
         XX_quest_user = X_quest_user_clean_vectorized_tfidf.toarray().reshape(X_quest_user_clean_vectorized_tfidf.shape[0],1,
                                                 X_quest_user_clean_vectorized_tfidf.shape[1])
-        pred_proba = classifier_theme.predict(XX_quest_user)
-        idx = np.argmax(pred_proba, axis=-1)
-        YY_pred = np.zeros( pred_proba.shape )
-        YY_pred[ np.arange(YY_pred.shape[0]), idx] = 1
-        theme_quest_user = list(YY_pred[0]).index(1) +1
-        theme_quest_user
-        faq_theme = faq.iloc[theme_quest_user-1][["question", 'reponse']]
+        #pred_proba = classifier_theme.predict(XX_quest_user)
+        #idx = np.argmax(pred_proba, axis=-1)
+        #YY_pred = np.zeros( pred_proba.shape )
+        #YY_pred[ np.arange(YY_pred.shape[0]), idx] = 1
+        theme_quest_user = 3 #list(YY_pred[0]).index(1) +1
+        faq_theme = faq[faq.theme == dic_decode_theme[theme_quest_user]][["question", 'reponse', 'tokens']]
         quest_user_clean = supp_sw(supp(substitute_punctuation(stem_text(lemmatise_text(quest_user)))))
         quest_user_clean_tokens = nlp(quest_user_clean)
         lst_similarity = [quest_user_clean_tokens.similarity(token) for token in faq_theme.tokens]
-        print(faq_theme.reponse[np.asarray(lst_similarity).argmax()])
+        print(faq_theme.iloc[np.asarray(lst_similarity).argmax()].reponse)
     else:
         quest_user_clean = unidecode.unidecode(quest_user).replace("?","")
         gene0 = generate_text(model_generation_text, start_string=quest_user_clean)[len(quest_user_clean):]
         print([p for p in gene0.split('.') if p!='' and len(p)>10][0])
+    quest_user = input("Entrée user : ")
 
 
