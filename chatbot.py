@@ -9,6 +9,7 @@ import string
 import spacy
 import pickle
 import unidecode
+import re
 
 import numpy as np
 import pandas as pd
@@ -18,6 +19,11 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
 from joblib import load
 
+
+#=======================  gestion des warnings
+
+import warnings
+warnings.filterwarnings('ignore', category=FutureWarning)
 
 #=======================  définition des fonctions
 
@@ -42,6 +48,11 @@ def supp(text):
 def supp_sw(text):
     return ' '.join([token.text for token in nlp(text) if not token.text in sw])
 
+
+def supp_deb(chaine):
+    chaine = re.sub(' +', ' ', chaine).lstrip()
+    return re.sub(' +', ' ', chaine[0].replace(",", "").replace(";", "") + chaine[1:]).lstrip()
+    
 
 def build_model(vocab_size, embedding_dim, rnn_units, batch_size):
   model = tf.keras.Sequential([
@@ -117,7 +128,7 @@ dic_decode_theme = {val: key for key, val in dic_code_theme.items()}
 
 # classif theme
 vectoriser_theme = load('vectorizer_classif_theme.joblib')
-#classifier_theme = load('model_classif_theme.joblib')      #A VOIR AVEC ENO
+classifier_theme = load('model_classif_theme.joblib')      #A VOIR AVEC ENO
 
 # classif domaine
 classifier_domaine = load('model_classif_domaine.joblib')
@@ -166,20 +177,21 @@ while quest_user != "quit":
     if domaine_quest_user == 1:
         XX_quest_user = X_quest_user_clean_vectorized_tfidf.toarray().reshape(X_quest_user_clean_vectorized_tfidf.shape[0],1,
                                                 X_quest_user_clean_vectorized_tfidf.shape[1])
-        #pred_proba = classifier_theme.predict(XX_quest_user)
-        #idx = np.argmax(pred_proba, axis=-1)
-        #YY_pred = np.zeros( pred_proba.shape )
-        #YY_pred[ np.arange(YY_pred.shape[0]), idx] = 1
-        theme_quest_user = 3 #list(YY_pred[0]).index(1) +1
+        pred_proba = classifier_theme.predict(XX_quest_user)
+        idx = np.argmax(pred_proba, axis=-1)
+        YY_pred = np.zeros( pred_proba.shape )
+        YY_pred[ np.arange(YY_pred.shape[0]), idx] = 1
+        theme_quest_user = list(YY_pred[0]).index(1) +1
+        print(theme_quest_user)
         faq_theme = faq[faq.theme == dic_decode_theme[theme_quest_user]][["question", 'reponse', 'tokens']]
         quest_user_clean = supp_sw(supp(substitute_punctuation(stem_text(lemmatise_text(quest_user)))))
         quest_user_clean_tokens = nlp(quest_user_clean)
         lst_similarity = [quest_user_clean_tokens.similarity(token) for token in faq_theme.tokens]
-        print(faq_theme.iloc[np.asarray(lst_similarity).argmax()].reponse)
+        print('\n', faq_theme.iloc[np.asarray(lst_similarity).argmax()].reponse, sep = 'Réponse bot : ')
     else:
         quest_user_clean = unidecode.unidecode(quest_user).replace("?","")
         gene0 = generate_text(model_generation_text, start_string=quest_user_clean)[len(quest_user_clean):]
-        print([p for p in gene0.split('.') if p!='' and len(p)>10][0])
+        print('\n', supp_deb([p for p in gene0.split('.') if p!='' and len(p)>10][0]), sep = 'Réponse bot : ')
     quest_user = input("Entrée user : ")
 
 
