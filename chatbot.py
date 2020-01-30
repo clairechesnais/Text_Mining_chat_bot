@@ -145,16 +145,17 @@ model_generation_text = tf.keras.models.model_from_json(loaded_model_json)
 model_generation_text.load_weights("model_generation_text.h5")
 checkpoint_dir = './training_checkpoints'
 tf.train.latest_checkpoint(checkpoint_dir)
-embedding_dim = 256
-rnn_units = 1024    # Number of RNN units
-model_generation_text = build_model(205, embedding_dim, rnn_units, batch_size=1)
-model_generation_text.load_weights(tf.train.latest_checkpoint(checkpoint_dir))
-model_generation_text.build(tf.TensorShape([1, None]))
 # Chargement de char2idx et de idx2char
 with open('char2idx.pkl','rb') as f:
     char2idx = pickle.load(f)
 with open('idx2char.pkl','rb') as f:
     idx2char = pickle.load(f)
+embedding_dim = 256
+rnn_units = 1024    # Number of RNN units
+model_generation_text = build_model(idx2char.shape[0], embedding_dim, rnn_units, batch_size=1)
+model_generation_text.load_weights(tf.train.latest_checkpoint(checkpoint_dir))
+model_generation_text.build(tf.TensorShape([1, None]))
+
 # Fonction de génération d'une réponse originale
 input_eval = [char2idx[s] for s in u"bonjour"]
 input_eval = tf.expand_dims(input_eval, 0)
@@ -182,7 +183,6 @@ while quest_user != "quit":
         YY_pred = np.zeros( pred_proba.shape )
         YY_pred[ np.arange(YY_pred.shape[0]), idx] = 1
         theme_quest_user = list(YY_pred[0]).index(1) +1
-        print(theme_quest_user)
         faq_theme = faq[faq.theme == dic_decode_theme[theme_quest_user]][["question", 'reponse', 'tokens']]
         quest_user_clean = supp_sw(supp(substitute_punctuation(stem_text(lemmatise_text(quest_user)))))
         quest_user_clean_tokens = nlp(quest_user_clean)
