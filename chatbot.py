@@ -166,9 +166,10 @@ input_eval = tf.expand_dims(input_eval, 0)
 
 # -- lancement du bot
 
+print("Bonjour ! Je suis un chatbot. Je vais tenter de répondre à vos questions sur Center Parcs... et pleins d'autres !")
 print("Pour quitter, taper 'quit'.")
 
-quest_user = input("Entrée user : ")
+quest_user = input("Votre question : ")
 
 while quest_user != "quit":
     quest_user_clean = supp(substitute_punctuation(stem_text(lemmatise_text(quest_user))))
@@ -187,11 +188,11 @@ while quest_user != "quit":
         quest_user_clean = supp_sw(supp(substitute_punctuation(stem_text(lemmatise_text(quest_user)))))
         quest_user_clean_tokens = nlp(quest_user_clean)
         lst_similarity = [quest_user_clean_tokens.similarity(token) for token in faq_theme.tokens]
-        print('\n', faq_theme.iloc[np.asarray(lst_similarity).argmax()].reponse, sep = 'Réponse bot : ')
+        print('\n', faq_theme.iloc[np.asarray(lst_similarity).argmax()].reponse, sep = 'Réponse du chatbot : ')
     else:
         quest_user_clean = unidecode.unidecode(quest_user).replace("?","")
         gene0 = generate_text(model_generation_text, start_string=quest_user_clean)[len(quest_user_clean):]
-        print('\n', supp_deb([p for p in gene0.split('.') if p!='' and len(p)>10][0]), sep = 'Réponse bot : ')
-    quest_user = input("Entrée user : ")
+        print('\n', supp_deb([p for p in gene0.split('.') if p!='' and len(p)>10][0]), sep = 'Réponse du chatbot : ')
+    quest_user = input("Votre question : ")
 
 

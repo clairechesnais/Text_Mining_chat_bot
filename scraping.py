@@ -4,7 +4,7 @@ Created on Sat Dec 21 17:10:10 2019
 
 Scraping FAQ du site Web de CenterPark
 
-@author: clair
+@author: mathilde, claire & enora
 """
 
 ################################  Import modules
